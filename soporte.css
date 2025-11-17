@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #212121;
+}
+
+body{
+    background-color: #AEEA00;
+}
+
+header{
+    background-color: #33691E;
+}
+
+
+nav{
+    background-color: #33691E;
+    text-align: center;
+}
+
+.navegador{
+    background-color: #33691E !important;
+}
+
+.producto, .dudas{
+color: #212121;
+background-color: #F4F4F4;
+border: none;   
+border-radius: 40px;
+width: 323px;
+height: 40px;
+text-align: center;
+font-style: bold;
+text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+font-weight: 700;
+
+}
+
+.producto:hover, .dudas:hover{
+    background-color: #C3C3C3;
+    color: #212121;
+
+}
+
+.form-inline{
+      display: flex;
+  justify-content: center; 
+  width: 100%;            
+  gap: 120px;               
+}
+
+main{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.btn-lg{
+    background-color: #F4F4F4;
+    color: #212121;
+    font-weight: bold;
+    border-radius: 40px;
+    border: none;
+    
+}
+
+.btn-lg:hover{
+        background-color: #C3C3C3;
+          color: #212121;
+        font-weight: bold;
+}
+
+footer {
+  background: #33691E;
+  display: flex;
+  gap: 300px;
+  justify-content: center;     
+  align-items: center;        
+  padding: 15px 0;           
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  margin: 0;                  
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+}

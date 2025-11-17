@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #212121;
+}
+
+body{
+    background-color: #AEEA00;
+}
+
+header{
+    background-color: #33691E;
+}
+
+
+nav{
+    background-color: #33691E;
+    text-align: center;
+}
+
+.navegador{
+    background-color: #33691E !important;
+}
+
+.producto, .dudas{
+color: #212121;
+background-color: #F4F4F4;
+border: none;   
+border-radius: 40px;
+width: 323px;
+height: 40px;
+text-align: center;
+font-style: bold;
+text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+font-weight: 700;
+
+}
+
+.producto:hover, .dudas:hover{
+    background-color: #C3C3C3;
+    color: #212121;
+
+}
+
+.form-inline{
+      display: flex;
+  justify-content: center; 
+  width: 100%;            
+  gap: 120px;               
+}
+
+
+
+
+footer {
+  background: #33691E;
+  display: flex;
+  gap: 300px;
+  justify-content: center;     
+  align-items: center;        
+  padding: 15px 0;           
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  margin: 0;                  
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:black;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: white;
+  border:20px ;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #F4F4F4; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#F4F4F4;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:#212121;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background: #C3C3C3; }

@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+*{
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #212121;
+}
+
+body{
+    background-color: #AEEA00;
+}
+
+header{
+    background-color: #33691E;
+}
+
+
+nav{
+    background-color: #33691E;
+    text-align: center;
+}
+
+.navegador{
+    background-color: #33691E !important;
+}
+
+.producto, .dudas{
+color: #212121;
+background-color: #F4F4F4;
+border: none;   
+border-radius: 40px;
+width: 323px;
+height: 40px;
+text-align: center;
+font-style: bold;
+text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+font-weight: 700;
+
+}
+
+.producto:hover, .dudas:hover{
+    background-color: #C3C3C3;
+    color: #212121;
+
+}
+
+.form-inline{
+      display: flex;
+  justify-content: center; 
+  width: 100%;            
+  gap: 120px;               
+}
+
+.aiPods{
+
+
+box-sizing: border-box;
+color: #212121;
+position: absolute;
+width: 571px;
+height: 387px;
+left: 195px;
+top: 195px;
+font-size: 18px;
+background: #F4F4F4;
+border: 3px solid #A4A4A4;
+box-shadow: inset 0px 4px 40px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.imagen1{
+position: absolute;
+width: 340px;
+height: 185px;
+left: 771px;
+top: 215px;
+border-radius: 20px;
+
+
+}
+
+.imagen2{
+position: absolute;
+width: 340px;
+height: 185px;
+left: 771px;
+top: 415px;
+border-radius: 20px;
+}
+
+
+footer {
+  background: #33691E;
+  display: flex;
+  gap: 300px;
+  justify-content: center;     /* centra horizontalmente */
+  align-items: center;         /* centra verticalmente */
+  padding: 15px 0;             /* da espacio vertical */
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  color: white;
+  margin: 0;                  
+}
+
+.icono{
+    width: 30px;
+    height: 30px;
+}
